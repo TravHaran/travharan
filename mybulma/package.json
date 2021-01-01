@@ -1,5 +1,6 @@
 {
   "name": "mybulma",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "sass/mystyles.scss",
