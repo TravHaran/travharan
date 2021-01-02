@@ -69,16 +69,16 @@
           </div>
           <div id="navbarMenuHeroC" class="navbar-menu">
             <div class="navbar-start">
-              <a class="navbar-item " href="#section-intro">
+              <a class="navbar-item " onclick="scrollToSection(event,1)" href="#section-intro">
                 Introduction
               </a>
-              <a class="navbar-item" href="#section-projects">
+              <a class="navbar-item" onclick="scrollToSection(event,2)" href="#section-projects">
                 Projects
               </a>
-              <a class="navbar-item" href="#section-education">
+              <a class="navbar-item" onclick="scrollToSection(event,3)" href="#section-education">
                 Education
               </a>
-              <a class="navbar-item" href="#section-skills">
+              <a class="navbar-item" onclick="scrollToSection(event,4)" href="#section-skills">
                 Skills
               </a>
             </div>
@@ -111,7 +111,7 @@
         <h1 class="title has-text-dark has-text-weight-light has-text-centered is-size-4">
           <span class="typed-text"></span><span class="cursor">&nbsp;</span>
         </h1>
-        <a aria-label="Scroll to intro" href="#section-intro">
+        <a aria-label="Scroll to intro" onclick="scrollToSection(event, 1)" href="#section-intro">
           <i class="fas fa-caret-down fa-5x has-text-dark arrowMargin animated infinite flash slower delay-5s"></i>
         </a>
       </div>
