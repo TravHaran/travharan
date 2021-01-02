@@ -1,22 +1,21 @@
 /* HTML */
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 body {
   background-color: black;
-  scroll-behavior: smooth;
 }
 
 ::selection {
   color: white;
-  background: hsl(18, 74%, 60%) !important;
+  background-color: hsl(18, 74%, 60%) !important;
   /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
   color: white;
-  background: hsl(18, 74%, 60%) !important;
+  background-color: hsl(18, 74%, 60%) !important;
   /* Gecko Browsers */
 }
 
