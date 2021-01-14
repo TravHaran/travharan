@@ -2,10 +2,11 @@
 html {
   background: black;
   background-image: linear-gradient(-45deg, #401004, #7E1037, #2d132c,#0a0a0a );
+  overflow: hidden;
   /* scroll-behavior: smooth; */
 }
 
-body {
+/* body {
     background: linear-gradient(-45deg, #401004, #7E1037, #2d132c,#0a0a0a);
     background-size: 400% 400%;
     animation: gradient 7s ease infinite;
@@ -22,7 +23,7 @@ body {
     100% {
         background-position: 0% 50%;
     }
-}
+} */
 
 ::selection {
   color: white;
