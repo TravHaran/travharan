@@ -1,7 +1,7 @@
 {
   "particles":{
     "number":{
-      "value":175
+      "value":130
     },
     "color":{
       "value":"#e47b4e"
@@ -22,7 +22,7 @@
       "random":true,
       "anim":{
         "enable":true,
-        "speed":30
+        "speed":10
       }
     },
     "line_linked":{
