@@ -1,11 +1,28 @@
 /* HTML */
 html {
+  background: black;
+  background-image: linear-gradient(-45deg, #401004, #7E1037, #2d132c,#0a0a0a );
+  /* background-size: 400% 400%;
+  animation: gradient 15s ease infinite; */
   /* scroll-behavior: smooth; */
 }
 
 body {
-  background-color: black;
+    background: linear-gradient(-45deg, #401004, #84142d, #2d132c, #7E1037);
+    overflow: hidden;
 }
+
+/* @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} */
 
 ::selection {
   color: white;
@@ -47,6 +64,21 @@ body {
   /* display:block; */
 
 /* } */
+#section-intro{
+  padding-top: 90px;
+}
+
+#section-projects{
+  padding-top: 90px;
+}
+
+#section-education{
+  padding-top: 90px;
+}
+
+#section-skills{
+  padding-top: 90px;
+}
 
 section.heroTop {
   background-image: url(../Images/background.jpg);
@@ -127,6 +159,7 @@ section.heroTop {
     position: relative;
     padding: calc(var(--v-space)/2) 0;
     border-radius: var(--border-radius);
+    cursor: pointer;
 
     /* display: grid;
     grid-template-columns: 1fr 5fr 5fr 1fr;
@@ -134,6 +167,13 @@ section.heroTop {
     grid-template-areas:
     ". co description ."; */
 }
+
+.content1: hover {
+  font-size: larger;
+    transition: 0.2s all ease;
+}
+
+
 
 .content1{
     padding-left: 50px;
