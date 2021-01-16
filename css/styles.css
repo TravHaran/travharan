@@ -4,15 +4,18 @@ html {
   background-image: linear-gradient(-45deg, #401004, #7E1037, #2d132c, #0a0a0a);
   max-width: 100%;
   overflow-x: hidden;
+  /* overscroll-behavior: none; */
+
   /* overflow: hidden; */
-  /* scroll-behavior: smooth; */
 }
 
 body {
   background: linear-gradient( -45deg, #c33764, #1d2671, #61045f);
   background-size: 100% 100%;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
+  /* overflow: auto; */
+
   /* animation: gradient 10s ease infinite; */
   /* overflow: hidden; */
 }
