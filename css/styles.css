@@ -52,8 +52,7 @@ body {
 	background:hsl(18, 74%, 60%);
 	animation: animate 20s linear infinite;
 	bottom: -150px;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border-radius: 50%;
 }
 .box-area li:nth-child(1) {
 	left: 86%;
@@ -159,7 +158,8 @@ section.heroTop {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  border-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   position:relative;
   z-index:4;
 }
