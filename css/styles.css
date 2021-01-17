@@ -9,16 +9,52 @@ html {
   /* overflow: hidden; */
 }
 
+hr {
+  background-color: hsl(18, 74%, 60%);
+  height: 1px;
+  border: 0;
+}
+
 body {
   background: linear-gradient( -45deg, #c33764, #1d2671, #61045f);
   background-size: 100% 100%;
   max-width: 100%;
   overflow: hidden;
-  /* overflow: auto; */
-
-  /* animation: gradient 10s ease infinite; */
-  /* overflow: hidden; */
 }
+
+#content1{
+  display: grid;
+  grid-template-columns:1fr
+  text-align: center;
+}
+#content2{
+  display: grid;
+  grid-template-columns:1fr
+  text-align: center;
+}
+#content3{
+  display: grid;
+  grid-template-columns:1fr
+  text-align: center;
+}
+#content4{
+  display: grid;
+  grid-template-columns:1fr
+  text-align: center;
+}
+ul li {
+  list-style-type: none; /* Remove default bullets */
+}
+
+ul li::before {
+  color: hsl(18, 74%, 60%); /* Change the color */
+  float: left;
+  font-weight: bold;
+  margin: 0 0 0 -1em;
+  width: 1em;
+  content: '\2022';
+}
+
 #footer{
   z-index: 2;
   background: var(--c-tertiary);
@@ -36,10 +72,6 @@ body {
   z-index:0;
 }
 .box-area {
-	/* top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%; */
 	overflow: hidden;
   z-index:0;
 }
@@ -247,8 +279,8 @@ section.heroTop {
 .box {
   z-index: 2;
   background: var(--c-tertiary);
-  backdrop-filter: saturate(180%) blur(40px);
-  -webkit-backdrop-filter: saturate(180%) blur(40px);
+  backdrop-filter: saturate(180%) blur(50px);
+  -webkit-backdrop-filter: saturate(180%) blur(50px);
   position: relative;
   padding: calc(var(--v-space)/2) 0;
   border-radius: var(--border-radius);
@@ -260,12 +292,8 @@ section.heroTop {
     ". co description ."; */
 }
 
-.content1: hover {
-  font-size: larger;
-  transition: 0.2s all ease;
-}
 
-.content1 {
+.content {
   padding-left: 50px;
   padding-right: 50px;
   /* padding-top: 2px;

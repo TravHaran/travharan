@@ -64,30 +64,3 @@ $(function() {
         }
     });
 });
-// var isSmoothScrollSupported = 'scrollBehavior' in document.documentElement.style;
-//
-// var options = {
-//     "behavior": "smooth",
-//     "left": left,
-//     "top": top
-// };
-//
-// if (isSmoothScrollSupported) {
-//     // Native smooth scrolling
-//     // window.scrollTo(options);
-// } else {
-//     // Old way scrolling without effects
-//       $('a[href*="#"]:not([href="#"])').click(function(){
-//         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname){
-//           var target = $(this.hash);
-//           target = $(this.hash);
-//           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-//           if (target.length) {
-//             $('html, body').animate({
-//             scrollTop: target.offset().top
-//           }, 1000);
-//           return false;
-//           }
-//         }
-//       });
-// }

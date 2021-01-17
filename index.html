@@ -32,27 +32,21 @@
 </head>
 
 <body>
-  <!-- <div id="preloader">
-    <div id="loader"></div>
-  </div> -->
-  <!-- LOADING DOTS... -->
-<div id="preloader">
-  <div id="loader">
-    <div class="spinner-box" id="loader">
-      <div class="pulse-container" id="loader1">
-        <div class="pulse-bubble pulse-bubble-1" id="loader2"></div>
-        <div class="pulse-bubble pulse-bubble-2" id="loader3"></div>
-        <div class="pulse-bubble pulse-bubble-3" id="loader4"></div>
+  <div id="preloader">
+    <div id="loader">
+      <div class="spinner-box" id="loader">
+        <div class="pulse-container" id="loader1">
+          <div class="pulse-bubble pulse-bubble-1" id="loader2"></div>
+          <div class="pulse-bubble pulse-bubble-2" id="loader3"></div>
+          <div class="pulse-bubble pulse-bubble-3" id="loader4"></div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
   <!-- Hero -->
-
-  <!--ParticleJS Element-->
-
   <section class="hero heroTop is-primary is-fullheight">
+    <!--ParticleJS Element-->
     <div id="particles-js"></div>
     <!-- Hero head: will stick at the top -->
     <div class="hero-head">
@@ -68,6 +62,7 @@
               <span></span>
             </span>
           </div>
+
           <div id="navbarMenuHeroC" class="navbar-menu">
             <div class="navbar-start">
               <a class="navbar-item " href="#section-intro">
@@ -76,7 +71,7 @@
               <a class="navbar-item" href="#section-projects">
                 Projects
               </a>
-              <a class="navbar-item"href="#section-education">
+              <a class="navbar-item" href="#section-education">
                 Education
               </a>
               <a class="navbar-item" href="#section-skills">
@@ -118,7 +113,7 @@
       </div>
     </div>
   </section>
-
+  <!-- background animation -->
   <div class="animation-area">
     <ul class="box-area">
       <li></li>
@@ -137,19 +132,25 @@
         <h1 class="title is-size-3 has-text-primary">Introduction</h1>
         <h2 class="subtitle has-text-grey-light is-size-4">A little bit about myself.</h2>
         <div class="box">
-          <div class="content1">
-            <p class="is-size-5 has-text-grey-lighter">I'm a student at McMaster University studying Engineering Physics with a background in Electronics and an interest in Machine Learning. I'm currently the lead Firmware Engineer
-              at a CubeSat team, <a class="has-text-primary" href="https://mcmasterneudose.ca/" target='_blank'>McMaster NEUDOSE</a>.</p>
-            <div class="is-hidden-desktop"><br></div>
-            <p class="is-size-5 has-text-grey-lighter"> I've got a passion for Aerospace/Avionics and Space Exploration. In my free time I enjoy playing chess, basketball, guitar, and working on side projects in the software and hardware domain!</p>
-            <div class="is-hidden-desktop"><br></div>
-            <p class="is-size-5 has-text-grey-lighter">I'm currently looking for co-op/internship opportunities. Feel free to contact me at <a class="has-text-primary" href="mailto:ratnahat@mcmaster.ca?subject=Business%20Inquiry"
-                target='_blank'>ratnahat@mcmaster.ca</a>
-              for business inquiries or just to chat.</p>
+          <div class="content" id="content1">
+            <div>
+              <p class="is-size-5 has-text-grey-lighter">I'm a student at McMaster University studying Engineering Physics with a background in Electronics and an interest in Machine Learning. I'm currently the lead Firmware Engineer
+                at a CubeSat team, <a class="has-text-primary" href="https://mcmasterneudose.ca/" target='_blank'>McMaster NEUDOSE</a>.</p>
+                <hr>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter"> I've got a passion for Aerospace/Avionics and Space Exploration. In my free time I enjoy playing chess, basketball, guitar, and working on side projects in the software and hardware domain!
+              </p>
+              <hr>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">I'm currently looking for co-op/internship opportunities. Feel free to contact me at <a class="has-text-primary" href="mailto:ratnahat@mcmaster.ca?subject=Business%20Inquiry"
+                  target='_blank'>ratnahat@mcmaster.ca</a>
+                for business inquiries or just to chat.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- background animation -->
     <div class="animation-area">
       <ul class="box-area">
         <li></li>
@@ -166,19 +167,70 @@
         <h1 class="title is-size-3 has-text-primary">Projects</h1>
         <h2 class="subtitle has-text-grey-light is-size-4">A few projects I've worked on over the years. Check them out at <a class="has-text-primary" rel="noreferrer" target="_blank" href="https://github.com/TravHaran">GitHub</a>.</h2>
         <div class="box">
-          <div class="content1">
-            <p class="is-size-5 has-text-grey-lighter">I'm a student at McMaster University studying Engineering Physics with a background in Electronics and an interest in Machine Learning. I'm currently the lead Firmware Engineer
-              at a CubeSat team, <a class="has-text-primary" href="https://mcmasterneudose.ca/" target='_blank'>McMaster NEUDOSE</a>.</p>
-            <div class="is-hidden-desktop"><br></div>
-            <p class="is-size-5 has-text-grey-lighter"> I've got a passion for Aerospace/Avionics and Space Exploration. In my free time I enjoy playing chess, basketball, guitar, and working on side projects in the software and hardware domain!</p>
-            <div class="is-hidden-desktop"><br></div>
-            <p class="is-size-5 has-text-grey-lighter">I'm currently looking for co-op/internship opportunities. Feel free to contact me at <a class="has-text-primary" href="mailto:ratnahat@mcmaster.ca?subject=Business%20Inquiry"
-                target='_blank'>ratnahat@mcmaster.ca</a>
-              for business inquiries or just to chat.</p>
+          <div class="content" id="content2">
+            <div>
+              <p class="is-size-4 has-text-grey-lighter">Im.Primo: Wireless 3D Scanning & 3D Printing at your fingertips</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">Im.Primo allows users to scan objects with their phone and 3D Print it with the click of a button. The application leverages the Lidar scanner in an iPhone coupled with SLAM algorithms to scan an object and grenerate a mesh file.
+                This mesh file is then sent to a backend server which filters it and converts it into a 3D Printable STL file.
+                This STL file is then sent to a 3D printer running Octoprint on a Raspberry Pi to enable wireless printing.</p>
+              <div class="is-hidden-desktop"><br></div>
+              <br>
+              <p class="is-size-5 has-text-grey-lighter">Built using Python, Swift, Django, StandardCyborg API, & OctoPrint API</p>
+              <br>
+              <p class="is-size-5 has-text-grey-lighter">Check it out: <a class="has-text-primary" rel="noreferrer" target="_blank" href="https://www.youtube.com/watch?v=HLnXVU77FOM">Youtube</a>,
+                <a class="has-text-primary" rel="noreferrer" target="_blank" href="https://devpost.com/software/imprimo">DevPost</a>, <a class="has-text-primary" rel="noreferrer" target="_blank" href="https://github.com/TravHaran/Im.Primo">GitHub</a>
+              </p>
+            </div>
+            <hr>
+            <div>
+              <p class="is-size-4 has-text-grey-lighter">Print.ology: Interactive 3D Print Previews in Augmented Reality</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">Print.ology allows users to preview 3D models they'd like to print in AR to get insights into how their print would turn out.
+                The application starts off with the user uploading thier desired 3D models onto a server. The backend of the server processes the uploaded STL file and converts it into a USDZ file to enable compatibility with AR view.
+                Then the mobile app connects to the server to browse a catalogue of the models which they have uploaded.
+                From here users can select their model and view it in AR and then send it to the server to 3D print it wirelessly. This application was built during my first hackathon and actually placed in the top 3 out of over 600 contestants.</p>
+              <div class="is-hidden-desktop"><br></div>
+              <br>
+              <p class="is-size-5 has-text-grey-lighter">Built using Node.js, Swift, ARKit, & OctoPrint API</p>
+              <br>
+              <p class="is-size-5 has-text-grey-lighter">Check it out: <a class="has-text-primary" rel="noreferrer" target="_blank" href="https://github.com/TravHaran/Print.ology">GitHub</a>,
+                <a class="has-text-primary" rel="noreferrer" target="_blank" href="https://devpost.com/software/print-ology">DevPost</a>
+              </p>
+            </div>
+            <hr>
+            <div>
+              <p class="is-size-4 has-text-grey-lighter">SmartDrone: Autonomous Mini-Quadcopter</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">Programmed a DJI Tello drone to recognize the user’s face and autonomously track them while maintaining a set distance.
+                This project gave me an introduction to applied computer vision and was also presented at McMaster’s IBM design showcase.</p>
+              <div class="is-hidden-desktop"><br></div>
+              <br>
+              <p class="is-size-5 has-text-grey-lighter">Built using Python, OpenCV, and DJI Tello</p>
+              <br>
+              <p class="is-size-5 has-text-grey-lighter">Check it out: <a class="has-text-primary" rel="noreferrer" target="_blank" href="https://github.com/TravHaran/Smart_TelloDrone">GitHub</a>
+              </p>
+            </div>
+            <hr>
+            <div>
+              <p class="is-size-4 has-text-grey-lighter">Ultrasonic Rangefinder</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">Designed and built a breadboard prototype of an instrument to provide a readout of the distance
+                of an object from an ultrasonic sensor with a maximum range of 1 meter.
+                This was done without the aid of any micrcontroller/microprocessor, and it was designed from scratch incorporating all my knowledge from digital and analog electronics.</p>
+              <div class="is-hidden-desktop"><br></div>
+              <br>
+              <p class="is-size-5 has-text-grey-lighter"> Built using NI Multisim, 400PT160 40kHz Ultrasonic Transducers,
+                SN74HC112N J-K Flip-Flops, TLC555 Timers, Op Amps, and more.</p>
+              <br>
+              <p class="is-size-5 has-text-grey-lighter">Check out the full detailed report: <a class="has-text-primary" rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1mmmh4bmEjyC9Awng-f1uzRyN3NbLK76b/view?usp=sharing">Report</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- background animation -->
     <div class="animation-area">
       <ul class="box-area">
         <li></li>
@@ -195,19 +247,77 @@
         <h1 class="title is-size-3 has-text-primary">Education</h1>
         <h2 class="subtitle has-text-grey-light is-size-4">A brief summery of my academic journey with notable courses I've gained valuable knowlegde from.</h2>
         <div class="box">
-          <div class="content1">
-            <p class="is-size-5 has-text-grey-lighter">I'm a student at McMaster University studying Engineering Physics with a background in Electronics and an interest in Machine Learning. I'm currently the lead Firmware Engineer
-              at a CubeSat team, <a class="has-text-primary" href="https://mcmasterneudose.ca/" target='_blank'>McMaster NEUDOSE</a>.</p>
-            <div class="is-hidden-desktop"><br></div>
-            <p class="is-size-5 has-text-grey-lighter"> I've got a passion for Aerospace/Avionics and Space Exploration. In my free time I enjoy playing chess, basketball, guitar, and working on side projects in the software and hardware domain!</p>
-            <div class="is-hidden-desktop"><br></div>
-            <p class="is-size-5 has-text-grey-lighter">I'm currently looking for co-op/internship opportunities. Feel free to contact me at <a class="has-text-primary" href="mailto:ratnahat@mcmaster.ca?subject=Business%20Inquiry"
-                target='_blank'>ratnahat@mcmaster.ca</a>
-              for business inquiries or just to chat.</p>
+          <div class="content" id="content3">
+            <div>
+              <p class="is-size-4 has-text-grey-lighter">iB Diploma Programme: Father Michael McGivney Catholic Highschool</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter"> My highschool education
+                helped me prepare for the STEM field by taking post-secondary level
+                courses including HL Chemistry, SL Math, and SL Physics, and SL French.
+                I finished and obtained the iB diploma with 38/42 points and graduated
+                with honours and early acceptance to engineering at McMaster.</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">From: 2014-2017</p>
+            </div>
+            <hr>
+            <div>
+              <p class="is-size-4 has-text-grey-lighter">Engineering Physics Co-op, B.Eng: McMaster University</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter"> My undergraduate programme
+                has helped me to learn how to work under pressure by taking some of the most rigorous courses offered by my university.
+                The Engineering Physics program has allowed me to gain applicable knowledge in the engineering domain
+                by giving me the freedom to take courses ranging from the Software Engineering field to the Electrical Engineering field
+                with an additional fundamental knowledge in the underlying Physics used in Engineering Systems.</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">Some notable past, ongoing, and upcoming courses:
+                <ul class="is-size-6 has-text-grey-lighter">
+                  <li>Engineering Design & Graphics: [A-]</li>
+                  <li>Engineering Economics: [A]</li>
+                  <li>Fundamentals of Entrepreneurship: [A+]</li>
+                  <li>Electronics I - Analog & Digital Circuits: [A+]</li>
+                  <li>Electronics II - Circuits with Non-linear Active Components: [TBA]</li>
+                  <li>Electronics III - Embedded Microcontroller Programming: [TBA]</li>
+                  <li>Signals & Systems for Engineering: [TBA]</li>
+                  <li>Data Structures, Algorithms, and Discrete Mathematics: [TBA]</li>
+                  <li>Fundamentals of Machine Learning: [TBA]</li>
+                </ul>
+              </p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">From: 2017-2022</p>
+            </div>
+            <hr>
+            <div>
+              <p class="is-size-4 has-text-grey-lighter">Machine Learning & Data Science Bootcamp: Zero to Mastery Academy</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">This was an extensive bootcamp I took out of interest to learn the basic concepts of Machine Learning Alogrithms and also
+                the applied theory through projects involving Pandas, Numpy, Matplotlib, Scikit-learn, and Tensorflow 2.</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">From: 2020</p>
+            </div>
+            <hr>
+            <div>
+              <p class="is-size-4 has-text-grey-lighter">Tensorflow 2 and Keras Deep Learning Bootcamp: Pierian Data</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">This bootcamp covered
+                the fundamentals of Neural Networks in Deep Learning applications including ANNs, CNNs, RNNs, NLP, AutoEncoders, and GANs. This involved creating projects using
+              Pandas, Numpy, Matplotlib, Keras API, and Tensorflow 2.</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">From: 2019</p>
+            </div>
+            <hr>
+            <div>
+              <p class="is-size-4 has-text-grey-lighter">Pytorch for Deep Learning and Computer Vision: Udemy</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">This course was the next step for me to further specialize in my interest of applying machine learning to computer vision.
+              From this course I was able to build neural networks from scratch using Pytorch for applications such as Image Recognition, Transfer Learning, and Style Transfer.</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">From: 2021</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- background animation -->
     <div class="animation-area">
       <ul class="box-area">
         <li></li>
@@ -224,61 +334,95 @@
         <h1 class="title is-size-3 has-text-primary">Skills</h1>
         <h2 class="subtitle has-text-grey-light is-size-4">Some notable technical skills I've acquired over the years.</h2>
         <div class="box">
-          <div class="content1">
-            <p class="is-size-5 has-text-grey-lighter">I'm a student at McMaster University studying Engineering Physics with a background in Electronics and an interest in Machine Learning. I'm currently the lead Firmware Engineer
-              at a CubeSat team, <a class="has-text-primary" href="https://mcmasterneudose.ca/" target='_blank'>McMaster NEUDOSE</a>.</p>
-            <div class="is-hidden-desktop"><br></div>
-            <p class="is-size-5 has-text-grey-lighter"> I've got a passion for Aerospace/Avionics and Space Exploration. In my free time I enjoy playing chess, basketball, guitar, and working on side projects in the software and hardware domain!</p>
-            <div class="is-hidden-desktop"><br></div>
-            <p class="is-size-5 has-text-grey-lighter">I'm currently looking for co-op/internship opportunities. Feel free to contact me at <a class="has-text-primary" href="mailto:ratnahat@mcmaster.ca?subject=Business%20Inquiry"
-                target='_blank'>ratnahat@mcmaster.ca</a>
-              for business inquiries or just to chat.</p>
+          <div class="content" id="content4">
+            <div>
+              <p class="is-size-4 has-text-grey-lighter">Programming</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">The languages and tools that I'm most familiar with:
+                <ul class="is-size-6 has-text-grey-lighter">
+                  <li><p class="is-size-6 has-text-weight-bold has-text-primary">Git/GitHub:</p> I use GitHub extensively in my software projects and doing so has allowed me to leverage Git version control to enable me to work efficiently in development teams.</li>
+                  <li><p class="is-size-6 has-text-weight-bold has-text-primary">Python:</p> As the first programming language I learned, I've thoroughly enjoyed using Python across multiple domains and find it very useful for rapid prototyping.</li>
+                  <li><p class="is-size-6 has-text-weight-bold has-text-primary">Java:</p> This programming language was used in my data structures and algorithms course and was very helpful in helping me understand advanced algorithmic concepts.</li>
+                  <li><p class="is-size-6 has-text-weight-bold has-text-primary">C:</p> As a firmware engineer I use C heavily when working with embedded systems such as FPGAs, Microprocessors, and Microcontrollers.</li>
+                  <li><p class="is-size-6 has-text-weight-bold has-text-primary">Matlab:</p> I've learned to become comfortable with using Matlab for scientific programming through undergraduate courses such as Engineering Numerical Methods and extracurricular clubs such as Formula SAE.</li>
+                  <li><p class="is-size-6 has-text-weight-bold has-text-primary">HTML/CSS:</p> I picked up this skill to enable me to learn web development, and I had so much fun that I used it to build this website!</li>
+                </ul>
+              </p>
+            </div>
+            <hr>
+            <div>
+              <p class="is-size-4 has-text-grey-lighter">Machine Learning</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">The frameworks and libraries I use the most in my Machine Learning workflow:
+                <ul class="is-size-6 has-text-grey-lighter">
+                  <li><p class="is-size-6 has-text-weight-bold has-text-primary">Numpy:</p> A fundamental and powerful tool for scientific calculations that I use on datasets.</li>
+                  <li><p class="is-size-6 has-text-weight-bold has-text-primary">Matplotlib:</p> An excellent library I use frequently for data visualisation</li>
+                  <li><p class="is-size-6 has-text-weight-bold has-text-primary">Pandas:</p> This is an essenital tool I use for preparing data for a variety of models.</li>
+                  <li><p class="is-size-6 has-text-weight-bold has-text-primary">Scikit-Learn:</p> Due to its compatibility with common ML libraries such as Pandas, I've Scikit-Learn to be an excellent tool for deploying standard ML algorithms.</li>
+                  <li><p class="is-size-6 has-text-weight-bold has-text-primary">Tensorflow:</p> An extremely powerful tool I use to build and implement Deep Learning models.</li>
+                </ul>
+              </p>
+            </div>
+            <hr>
+            <div>
+              <p class="is-size-4 has-text-grey-lighter">Hardware</p>
+              <div class="is-hidden-desktop"><br></div>
+              <p class="is-size-5 has-text-grey-lighter">The skills and tools that help me the most for projects in the hardware domain:
+                <ul class="is-size-6 has-text-grey-lighter">
+                  <li><p class="is-size-6 has-text-weight-bold has-text-primary">Analog/Digital Ciruit Components:</p> I've enjoyed using a variety of anolog components and IC chips
+                    to apply theory from the classroom to my breadboarding projects.</li>
+                  <li><p class="is-size-6 has-text-weight-bold has-text-primary">Oscilloscope/Multimeters:</p> I've spent countless hours in labs debugging and I've learned that these are essential tools for ensuring the functionality of any electronics project.</li>
+                  <li><p class="is-size-6 has-text-weight-bold has-text-primary">FPGAs/Micrprocessors/Microcontrollers:</p> I've worked heavily on the FPGA and softcore Microprocessor
+                    on board the NEUDOSE Cube Satellite's Payload, and I continue to gain an understanding of microcontrollers through electronics projects and coursework.</li>
+              </p>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
-  </secion>
+    </secion>
 
-  <!-- Contact Disclaimer -->
-  <section class="hero is-dark is-bold" id="footer">
-    <div class="hero-body" >
-      <div class="container">
-        <div class="level">
-          <div class="level-left">
-            <h1>
-              Built by Travis Ratnaharan using HTML, CSS, and JavaScript.
-            </h1>
-          </div>
-          <div class="level-right">
-            <h1>
-              I'm always available for a chat.
-              <br>
-              Say hi at <a class="has-text-primary" href="mailto:ratnahat@mcmaster.ca?Subject=Let's%20Talk" target="_top">ratnahat@mcmaster.ca</a>!
-            </h1>
+    <!-- Contact Disclaimer -->
+    <section class="hero is-dark is-bold" id="footer">
+      <div class="hero-body">
+        <div class="container">
+          <div class="level">
+            <div class="level-left">
+              <h1>
+                Built by Travis Ratnaharan using HTML, CSS, and JavaScript.
+              </h1>
+            </div>
+            <div class="level-right">
+              <h1>
+                I'm always available for a chat.
+                <br>
+                Say hi at <a class="has-text-primary" href="mailto:ratnahat@mcmaster.ca?Subject=Let's%20Talk" target="_top">ratnahat@mcmaster.ca</a>!
+              </h1>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script>
-    particlesJS.load('particles-js',
-      'particles.json',
-      function() {
-        console.log('particles.json loaded...');
-      });
-  </script>
+    </section>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS.load('particles-js',
+        'particles.json',
+        function() {
+          console.log('particles.json loaded...');
+        });
+    </script>
 
-  <script src="js/csi.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/typewriter.js"></script>
-  <script>
-    new WOW().init();
-  </script>
+    <script src="js/csi.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/typewriter.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 </body>
 
 </html>
